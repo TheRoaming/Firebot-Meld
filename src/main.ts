@@ -7,10 +7,10 @@ interface Params {
 const script: Firebot.CustomScript<Params> = {
   getScriptManifest: () => {
     return {
-      name: "Starter Custom Script",
+      name: "Meld Websocket Firebot",
       description: "A starter custom script for build",
-      author: "SomeDev",
-      version: "1.0",
+      author: "TheRoaming",
+      version: "0.1",
       firebotVersion: "5",
     };
   },
